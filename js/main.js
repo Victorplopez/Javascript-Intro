@@ -19,3 +19,21 @@
 // let hello = new String('Hello, there.');
 // alert(hello);
 
+let firstName = prompt('What is your first name?');
+let lastName = prompt('What is your last name?');
+
+console.log(firstName);
+alert(lastName);
+
+let birthday = prompt('What is your birthday? "mm/dd/yyyy"');
+let birthdayDate = new Date(birthday);
+let correctBirthday = confirm(`Is your birthday ${birthday}`);
+if(correctBirthday === true) {
+    alert(birthday);
+}
+else{
+    alert('You entered the wrong birthday!');
+}
+
+
+
